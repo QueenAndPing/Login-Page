@@ -1,0 +1,68 @@
+body {
+    background-image: url("background.jpg");
+    background-size: cover;
+}
+.container {
+    background-color: #ededed;
+    margin: 2.5%;
+    padding-bottom: 50px;
+    border-radius: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.colmn {
+    flex-basis: 48%;
+    margin: 1%;
+}
+.card {
+    width: 100%;
+    margin-top: 1.5rem;
+}
+.card-header {
+    background-color: #1c1c1c !important;
+}
+.card-header h3{
+    color: #ededed;
+    text-align: center;
+}
+form{
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}
+.form-control{
+    display: inline-block;
+    color: #ededed;
+    background: #1c1c1c;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    margin-bottom: 16px;
+    opacity: 0.59;
+}
+input{
+    height: 45px;
+}
+form .submit{
+    background: #1c1c1c;
+    border-color: transparent;
+    color: #ededed;
+    height: auto;
+    opacity: 1;
+    font-size: 27.49px;
+    width: auto;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+form .submit:hover{
+    background-color: #ededed;
+    cursor: pointer;
+    transition: 1s;
+    color: #1c1c1c;
+}
+.error-message{
+    color: red;
+    font-style: italic;
+    text-align: center;
+}
